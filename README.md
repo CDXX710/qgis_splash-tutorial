@@ -11,10 +11,10 @@ To access the file, go to Settings>User profiles>Open Active Profile Folder. The
 ## Edit QGISCUSTOMIZATION3.ini
 Add a key named "***splashpath***" in the ini file, which points to a folder which contains an image called "***splash.png***" (name and extension are mandatory || PNG should be 600x300).
 
-> Linux syntax:
+> Linux syntax: {for png located in ``default``)
 ```splashpath=home/asus/qgis/qgis3/profiles/default/```
 
-> Windows syntax:
+> Windows syntax: (for png located in ``default``)
 ```splashpath=C:\\Users\\ASUS\\AppData\\Roaming\\QGIS\\QGIS3\\profiles\\default\\```
 
 
@@ -30,8 +30,8 @@ Pour pouvoir modifier le fichier, aller dans Préférences>Profile>Ouvrir le ré
 ## Modifier QGISCUSTOMIZATION3.ini
 Ajouter une clé nommée "***splashpath***" dans le fichier ini, celle-ci doit pointer vers un dossier contenant une image nommée "***splash.png***" (nom et extension obligatoire || l'image doit mesurer 600x300).
 
-> Syntaxe Linux:
+> Syntaxe Linux: (pour une image située dans le dossier ``default``)
 ```splashpath=home/asus/qgis/qgis3/profiles/default/```
 
-> Syntaxe Windows:
+> Syntaxe Windows: (pour une image située dans le dossier ``default``)
 ```splashpath=C:\\Users\\ASUS\\AppData\\Roaming\\QGIS\\QGIS3\\profiles\\default\\```
